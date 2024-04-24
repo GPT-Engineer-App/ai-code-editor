@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <Flex direction="column" h="100vh">
       {/* Header */}
-      <Box bg="blue.600" p={4} color="white">
+      <Box bg="brand.700" p={4} color="white">
         <Flex align="center" justify="space-between">
           <Heading as="h1" size="xl">
             AI Code Editor <FaCode />
@@ -42,7 +42,7 @@ const Index = () => {
       </Flex>
 
       {/* Footer */}
-      <Box bg="gray.800" p={4} color="gray.300">
+      <Box bg="brand.900" p={4} color="gray.300">
         <Flex justify="space-between" align="center">
           <Text>© 2023 AI Code Editor</Text>
           <Flex>
